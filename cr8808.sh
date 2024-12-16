@@ -31,3 +31,4 @@ sed -i -e 's/dnsmasq/dnsmasq luci/' include/target.mk
 # scripts/feeds update packages
 # rm -rf feeds/packages/lang/golang
 # svn co https://github.com/openwrt/packages/branches/openwrt-22.03/lang/golang feeds/packages/lang/golang
+rm -rf feeds/packages/net/n2n/patches/101-Add-missing-header-zstd-build.patch
